@@ -9,10 +9,10 @@ let PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 const BASE_URL = 'https://online.hvnh.edu.vn';
-const CACHE_DIR = path.join(__dirname, 'cache');
+const CACHE_DIR = process.env.VERCEL ? '/tmp/cache' : path.join(__dirname, 'cache');
 
 if (!fs.existsSync(CACHE_DIR)) {
     fs.mkdirSync(CACHE_DIR, { recursive: true });
@@ -498,4 +498,8 @@ function startServer(portToTry) {
     });
 }
 
-startServer(PORT);
+if (!process.env.VERCEL) {
+    startServer(PORT);
+}
+
+module.exports = app;
