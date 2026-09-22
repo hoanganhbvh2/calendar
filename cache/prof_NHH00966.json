@@ -1,0 +1,836 @@
+{
+  "type": "professor",
+  "year": "2026-2027",
+  "term": "HK01",
+  "id": "NHH00966",
+  "startWeek": 38,
+  "weeksCount": 6,
+  "weeksData": [
+    {
+      "week": 38,
+      "displayWeek": 6,
+      "weekHeader": "Tuần 6: từ ngày 14/09/2026 đến ngày 20/09/2026 Thời khóa biểu giảng viên: Nguyễn Hoàng Anh",
+      "days": [
+        {
+          "dayName": "Thứ 2",
+          "rawDay": "Thứ 2",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 3",
+          "rawDay": "Thứ 3",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Lập trình di động (IS26A)\n-Mã LHP: 261IS26A01\n-Lớp: K26CNTTA\n-Ca: 4\n-Phòng : D6.510\n-Nội dung :",
+                "subject": "Lập trình di động",
+                "subjectCode": "IS26A",
+                "group": "",
+                "classId": "K26CNTTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 4",
+          "rawDay": "Thứ 4",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 5",
+          "rawDay": "Thứ 5",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H36\n-Lớp: K29CLC-TCG\n-Ca: 1\n-Phòng : D2.203\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-TCG",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H09\n-Lớp: K29CLC-KITA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-KITA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 6",
+          "rawDay": "Thứ 6Hôm nay",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 7",
+          "rawDay": "Thứ 7",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Chủ nhật",
+          "rawDay": "Chủ nhật",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        }
+      ]
+    },
+    {
+      "week": 39,
+      "displayWeek": 7,
+      "weekHeader": "Tuần 7: từ ngày 21/09/2026 đến ngày 27/09/2026 Thời khóa biểu giảng viên: Nguyễn Hoàng Anh",
+      "days": [
+        {
+          "dayName": "Thứ 2",
+          "rawDay": "Thứ 2",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 3",
+          "rawDay": "Thứ 3",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Lập trình di động (IS26A)\n-Mã LHP: 261IS26A01\n-Lớp: K26CNTTA\n-Ca: 4\n-Phòng : D6.510\n-Nội dung :",
+                "subject": "Lập trình di động",
+                "subjectCode": "IS26A",
+                "group": "",
+                "classId": "K26CNTTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 4",
+          "rawDay": "Thứ 4",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 5",
+          "rawDay": "Thứ 5",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H36\n-Lớp: K29CLC-TCG\n-Ca: 1\n-Phòng : D2.203\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-TCG",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H09\n-Lớp: K29CLC-KITA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-KITA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 6",
+          "rawDay": "Thứ 6",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 7",
+          "rawDay": "Thứ 7",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Chủ nhật",
+          "rawDay": "Chủ nhật",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        }
+      ]
+    },
+    {
+      "week": 40,
+      "displayWeek": 8,
+      "weekHeader": "Tuần 8: từ ngày 28/09/2026 đến ngày 04/10/2026 Thời khóa biểu giảng viên: Nguyễn Hoàng Anh",
+      "days": [
+        {
+          "dayName": "Thứ 2",
+          "rawDay": "Thứ 2",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 3",
+          "rawDay": "Thứ 3",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Lập trình di động (IS26A)\n-Mã LHP: 261IS26A01\n-Lớp: K26CNTTA\n-Ca: 4\n-Phòng : D6.510\n-Nội dung :",
+                "subject": "Lập trình di động",
+                "subjectCode": "IS26A",
+                "group": "",
+                "classId": "K26CNTTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 4",
+          "rawDay": "Thứ 4",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 5",
+          "rawDay": "Thứ 5",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H36\n-Lớp: K29CLC-TCG\n-Ca: 1\n-Phòng : D2.203\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-TCG",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H09\n-Lớp: K29CLC-KITA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-KITA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 6",
+          "rawDay": "Thứ 6",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 7",
+          "rawDay": "Thứ 7",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Chủ nhật",
+          "rawDay": "Chủ nhật",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        }
+      ]
+    },
+    {
+      "week": 41,
+      "displayWeek": 9,
+      "weekHeader": "Tuần 9: từ ngày 05/10/2026 đến ngày 11/10/2026 Thời khóa biểu giảng viên: Nguyễn Hoàng Anh",
+      "days": [
+        {
+          "dayName": "Thứ 2",
+          "rawDay": "Thứ 2",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 3",
+          "rawDay": "Thứ 3",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A20\n-Lớp: K29QTDLA\n-Ca: 1\n-Phòng : D6.310\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29QTDLA",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              },
+              {
+                "rawText": "-Môn: Lập trình di động (IS26A)\n-Mã LHP: 261IS26A01\n-Lớp: K26CNTTA\n-Ca: 4\n-Phòng : D6.510\n-Nội dung :",
+                "subject": "Lập trình di động",
+                "subjectCode": "IS26A",
+                "group": "",
+                "classId": "K26CNTTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 4",
+          "rawDay": "Thứ 4",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 5",
+          "rawDay": "Thứ 5",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H36\n-Lớp: K29CLC-TCG\n-Ca: 1\n-Phòng : D2.203\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-TCG",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H09\n-Lớp: K29CLC-KITA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-KITA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A06\n-Lớp: K29KDQTA\n-Ca: 4\n-Phòng : D2.302\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29KDQTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 6",
+          "rawDay": "Thứ 6",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A20\n-Lớp: K29QTDLA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29QTDLA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 6"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A06\n-Lớp: K29KDQTA\n-Ca: 4\n-Phòng : D2.202\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29KDQTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 6"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 7",
+          "rawDay": "Thứ 7",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Chủ nhật",
+          "rawDay": "Chủ nhật",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        }
+      ]
+    },
+    {
+      "week": 42,
+      "displayWeek": 10,
+      "weekHeader": "Tuần 10: từ ngày 12/10/2026 đến ngày 18/10/2026 Thời khóa biểu giảng viên: Nguyễn Hoàng Anh",
+      "days": [
+        {
+          "dayName": "Thứ 2",
+          "rawDay": "Thứ 2",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 3",
+          "rawDay": "Thứ 3",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A20\n-Lớp: K29QTDLA\n-Ca: 1\n-Phòng : D6.310\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29QTDLA",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              },
+              {
+                "rawText": "-Môn: Lập trình di động (IS26A)\n-Mã LHP: 261IS26A01\n-Lớp: K26CNTTA\n-Ca: 4\n-Phòng : D6.510\n-Nội dung :",
+                "subject": "Lập trình di động",
+                "subjectCode": "IS26A",
+                "group": "",
+                "classId": "K26CNTTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 4",
+          "rawDay": "Thứ 4",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 5",
+          "rawDay": "Thứ 5",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H36\n-Lớp: K29CLC-TCG\n-Ca: 1\n-Phòng : D2.203\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-TCG",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H09\n-Lớp: K29CLC-KITA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-KITA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A06\n-Lớp: K29KDQTA\n-Ca: 4\n-Phòng : D2.302\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29KDQTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 6",
+          "rawDay": "Thứ 6",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A20\n-Lớp: K29QTDLA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29QTDLA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 6"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A06\n-Lớp: K29KDQTA\n-Ca: 4\n-Phòng : D2.202\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29KDQTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 6"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 7",
+          "rawDay": "Thứ 7",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Chủ nhật",
+          "rawDay": "Chủ nhật",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        }
+      ]
+    },
+    {
+      "week": 43,
+      "displayWeek": 11,
+      "weekHeader": "Tuần 11: từ ngày 19/10/2026 đến ngày 25/10/2026 Thời khóa biểu giảng viên: Nguyễn Hoàng Anh",
+      "days": [
+        {
+          "dayName": "Thứ 2",
+          "rawDay": "Thứ 2",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 3",
+          "rawDay": "Thứ 3",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A20\n-Lớp: K29QTDLA\n-Ca: 1\n-Phòng : D6.310\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29QTDLA",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              },
+              {
+                "rawText": "-Môn: Lập trình di động (IS26A)\n-Mã LHP: 261IS26A01\n-Lớp: K26CNTTA\n-Ca: 4\n-Phòng : D6.510\n-Nội dung :",
+                "subject": "Lập trình di động",
+                "subjectCode": "IS26A",
+                "group": "",
+                "classId": "K26CNTTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 3"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 4",
+          "rawDay": "Thứ 4",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 5",
+          "rawDay": "Thứ 5",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H36\n-Lớp: K29CLC-TCG\n-Ca: 1\n-Phòng : D2.203\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-TCG",
+                "period": "1",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS03H)\n-Mã LHP: 261IS03H09\n-Lớp: K29CLC-KITA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS03H",
+                "group": "",
+                "classId": "K29CLC-KITA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A06\n-Lớp: K29KDQTA\n-Ca: 4\n-Phòng : D2.302\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29KDQTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 5"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 6",
+          "rawDay": "Thứ 6",
+          "sessions": {
+            "Sáng": [
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A20\n-Lớp: K29QTDLA\n-Ca: 2\n-Phòng : D6.504\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29QTDLA",
+                "period": "2",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 6"
+              },
+              {
+                "rawText": "-Môn: Năng lực số ứng dụng (IS52A)\n-Mã LHP: 261IS52A06\n-Lớp: K29KDQTA\n-Ca: 4\n-Phòng : D2.202\n-Nội dung :",
+                "subject": "Năng lực số ứng dụng",
+                "subjectCode": "IS52A",
+                "group": "",
+                "classId": "K29KDQTA",
+                "period": "4",
+                "room": "",
+                "professor": "",
+                "note": "",
+                "session": "Sáng",
+                "dayName": "Thứ 6"
+              }
+            ],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Thứ 7",
+          "rawDay": "Thứ 7",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        },
+        {
+          "dayName": "Chủ nhật",
+          "rawDay": "Chủ nhật",
+          "sessions": {
+            "Sáng": [],
+            "Chiều": [],
+            "Tối": []
+          }
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-09-18T08:14:43.879Z"
+}
