@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra cứu Thời khóa biểu Giảng viên - Học viện Ngân hàng (HVNH)</title>
+    <meta name="description"
+        content="Công cụ tra cứu thời khóa biểu giảng viên Học viện Ngân hàng, tự động tải 5 tuần liên tiếp, bộ đệm offline JSON và xuất Google Calendar.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-left">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-graduation-cap logo-icon"></i>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <button id="btnExportIcs" class="btn btn-emerald" title="Xuất toàn bộ 6 tuần ra Google/Apple Calendar">
+                    <i class="fa-solid fa-calendar-plus"></i>
+                </button>
+
+                <button id="btnPrint" class="btn btn-secondary" title="In hoặc xuất PDF">
+                    <i class="fa-solid fa-print"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Search & Quick Tags Card (Ultra-Clean Simple UI, 50% Width Search) -->
+        <section class="search-card">
+            <div class="search-row">
+                <div class="form-group search-half">
+                    <label for="searchTargetInput"><i class="fa-solid fa-magnifying-glass"></i> Ô Tìm kiếm Giảng
+                        viên</label>
+                    <div class="search-input-wrapper">
+                        <input type="text" id="searchTargetInput" class="form-control search-large"
+                            placeholder="Gõ tên giảng viên (VD: Nguyễn Hoàng Anh, Ngô Văn Bình)..." autocomplete="off">
+                        <ul id="autocompleteResults" class="autocomplete-dropdown hidden"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exactly 2 Quick Lecturer Suggestion Tags -->
+            <div class="quick-tags-section">
+                <div class="quick-tags-label">
+                    <i class="fa-solid fa-bolt text-amber"></i> Chọn nhanh Giảng viên (Tự động tải 6 tuần):
+                </div>
+                <div class="quick-tags-container" id="quickTagsContainer">
+                    <button class="tag-pill active" data-prof-id="NHH00966" data-prof-name="Nguyễn Hoàng Anh">
+                        <i class="fa-solid fa-chalkboard-user"></i> Nguyễn Hoàng Anh
+                    </button>
+                    <button class="tag-pill" data-prof-id="NHH00965" data-prof-name="Ngô Văn Bình">
+                        <i class="fa-solid fa-chalkboard-user"></i> Ngô Văn Bình
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Multi-Week Bar -->
+        <section class="week-nav-bar">
+            <div class="multi-week-header">
+                <i class="fa-solid fa-calendar-days text-primary"></i>
+                <span class="multi-week-title" id="multiWeekTitle">Đang xem lịch 6 tuần: Nguyễn Hoàng Anh</span>
+                <span id="cacheBadge" class="cache-badge status-syncing"><i
+                        class="fa-solid fa-arrows-rotate fa-spin"></i> Đang kiểm tra cập nhật...</span>
+            </div>
+
+            <div class="week-tabs-wrapper" id="weekTabsWrapper">
+                <!-- 6 Week Tabs will be rendered here dynamically -->
+            </div>
+        </section>
+
+        <!-- Schedule Display Container -->
+        <main class="schedule-container" id="scheduleContainer">
+            <!-- Loading State -->
+            <div id="loadingState" class="state-placeholder hidden">
+                <div class="spinner"></div>
+                <p>Đang tự động tải dữ liệu thời khóa biểu 5 tuần liên tiếp...</p>
+            </div>
+
+            <!-- Empty State -->
+            <div id="emptyState" class="state-placeholder hidden">
+                <i class="fa-solid fa-calendar-xmark placeholder-icon"></i>
+                <h3>Chưa có dữ liệu thời khóa biểu</h3>
+                <p>Vui lòng nhấp vào tag gợi ý hoặc gõ tên giảng viên để tìm kiếm lịch dạy.</p>
+            </div>
+
+            <!-- Timetable Container -->
+            <div id="timetableMultiWeekContainer" class="multi-week-container"></div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>© 2026 HVNH Lecturer Schedule — Tự động lưu bộ đệm Offline JSON & Đồng bộ trực tiếp <a
+                    href="https://online.hvnh.edu.vn/public/tracuuthoikhoabieu" target="_blank"
+                    rel="noopener">online.hvnh.edu.vn</a></p>
+        </footer>
+    </div>
+
+    <!-- Course Detail Modal -->
+    <div id="courseModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <button id="btnCloseModal" class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <div class="modal-badge" id="modalSessionBadge">Ca 1 - Sáng</div>
+                <h2 id="modalSubjectTitle">Môn Học</h2>
+                <span id="modalSubjectCode" class="modal-subcode">ACT35H</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-detail-row">
+                    <i class="fa-solid fa-door-closed text-indigo"></i>
+                    <div>
+                        <strong>Phòng học:</strong>
+                        <span id="modalRoom" class="modal-highlight">D4.104</span>
+                    </div>
+                </div>
+                <div class="modal-detail-row">
+                    <i class="fa-solid fa-user-tie text-amber"></i>
+                    <div>
+                        <strong>Giảng viên:</strong>
+                        <span id="modalProfessor">Nguyễn Hoàng Anh</span>
+                    </div>
+                </div>
+                <div class="modal-detail-row">
+                    <i class="fa-solid fa-users-rectangle text-emerald"></i>
+                    <div>
+                        <strong>Lớp giảng dạy:</strong>
+                        <span id="modalClass">K27CLC-KTA</span>
+                    </div>
+                </div>
+                <div class="modal-detail-row">
+                    <i class="fa-solid fa-layer-group text-purple"></i>
+                    <div>
+                        <strong>Nhóm / Tổ:</strong>
+                        <span id="modalGroup">01</span>
+                    </div>
+                </div>
+                <div class="modal-detail-row">
+                    <i class="fa-solid fa-clock text-rose"></i>
+                    <div>
+                        <strong>Khung giờ ca dạy:</strong>
+                        <span id="modalTimeRange">07:00 - 09:25</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="btnCopyModalDetail" class="btn btn-secondary btn-sm">
+                    <i class="fa-solid fa-copy"></i> Sao chép thông tin
+                </button>
+                <button id="btnCloseModalBtn" class="btn btn-primary btn-sm">Đóng</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
